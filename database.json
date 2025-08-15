@@ -91,7 +91,7 @@
 			"cohort": "C82"
 		}
 	],
-	"topics": [
+	"Topics": [
 		{
 			"id": 1,
 			"name": "JavaScript Fundamentals"
@@ -173,7 +173,7 @@
 			"name": "Web Performance Optimization"
 		}
 	],
-	"posts": [
+	"Posts": [
 		{
 			"id": 1,
 			"title": "Understanding JavaScript Closures",
