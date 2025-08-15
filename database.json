@@ -1,0 +1,338 @@
+{
+	"Users": [
+		{
+			"id": 1,
+			"name": "Alice Johnson",
+			"email": "alice.johnson@email.com",
+			"cohort": "C78"
+		},
+		{
+			"id": 2,
+			"name": "Bob Smith",
+			"email": "bob.smith@email.com",
+			"cohort": "C79"
+		},
+		{
+			"id": 3,
+			"name": "Carol Davis",
+			"email": "carol.davis@email.com",
+			"cohort": "C78"
+		},
+		{
+			"id": 4,
+			"name": "David Wilson",
+			"email": "david.wilson@email.com",
+			"cohort": "C80"
+		},
+		{
+			"id": 5,
+			"name": "Emma Brown",
+			"email": "emma.brown@email.com",
+			"cohort": "C79"
+		},
+		{
+			"id": 6,
+			"name": "Frank Miller",
+			"email": "frank.miller@email.com",
+			"cohort": "C78"
+		},
+		{
+			"id": 7,
+			"name": "Grace Taylor",
+			"email": "grace.taylor@email.com",
+			"cohort": "C80"
+		},
+		{
+			"id": 8,
+			"name": "Henry Anderson",
+			"email": "henry.anderson@email.com",
+			"cohort": "C81"
+		},
+		{
+			"id": 9,
+			"name": "Iris Chen",
+			"email": "iris.chen@email.com",
+			"cohort": "C79"
+		},
+		{
+			"id": 10,
+			"name": "Jack Martinez",
+			"email": "jack.martinez@email.com",
+			"cohort": "C80"
+		},
+		{
+			"id": 11,
+			"name": "Karen Rodriguez",
+			"email": "karen.rodriguez@email.com",
+			"cohort": "C81"
+		},
+		{
+			"id": 12,
+			"name": "Luke Thompson",
+			"email": "luke.thompson@email.com",
+			"cohort": "C78"
+		},
+		{
+			"id": 13,
+			"name": "Maya Patel",
+			"email": "maya.patel@email.com",
+			"cohort": "C82"
+		},
+		{
+			"id": 14,
+			"name": "Nathan Lee",
+			"email": "nathan.lee@email.com",
+			"cohort": "C81"
+		},
+		{
+			"id": 15,
+			"name": "Olivia Garcia",
+			"email": "olivia.garcia@email.com",
+			"cohort": "C82"
+		}
+	],
+	"topics": [
+		{
+			"id": 1,
+			"name": "JavaScript Fundamentals"
+		},
+		{
+			"id": 2,
+			"name": "HTML & CSS Basics"
+		},
+		{
+			"id": 3,
+			"name": "React Components"
+		},
+		{
+			"id": 4,
+			"name": "Database Design"
+		},
+		{
+			"id": 5,
+			"name": "RESTful APIs"
+		},
+		{
+			"id": 6,
+			"name": "Git Version Control"
+		},
+		{
+			"id": 7,
+			"name": "Node.js Backend"
+		},
+		{
+			"id": 8,
+			"name": "Authentication & Security"
+		},
+		{
+			"id": 9,
+			"name": "Testing Strategies"
+		},
+		{
+			"id": 10,
+			"name": "Deployment & DevOps"
+		},
+		{
+			"id": 11,
+			"name": "Data Structures"
+		},
+		{
+			"id": 12,
+			"name": "Algorithms"
+		},
+		{
+			"id": 13,
+			"name": "Cloud Computing"
+		},
+		{
+			"id": 14,
+			"name": "Mobile Development"
+		},
+		{
+			"id": 15,
+			"name": "Machine Learning Basics"
+		},
+		{
+			"id": 16,
+			"name": "UI/UX Design Principles"
+		},
+		{
+			"id": 17,
+			"name": "Agile Methodology"
+		},
+		{
+			"id": 18,
+			"name": "Python Programming"
+		},
+		{
+			"id": 19,
+			"name": "SQL Queries"
+		},
+		{
+			"id": 20,
+			"name": "Web Performance Optimization"
+		}
+	],
+	"posts": [
+		{
+			"id": 1,
+			"title": "Understanding JavaScript Closures",
+			"body": "Closures are one of the most important concepts in JavaScript. A closure is created when an inner function has access to variables from its outer function scope even after the outer function has finished executing. This allows for powerful patterns like data privacy and function factories. Here's a simple example: function outerFunction(x) { return function innerFunction(y) { return x + y; }; } The inner function maintains access to the variable x even after outerFunction completes.",
+			"date": "2024-08-10",
+			"topicId": 1,
+			"userId": 3
+		},
+		{
+			"id": 2,
+			"title": "CSS Grid vs Flexbox: When to Use Each",
+			"body": "Both CSS Grid and Flexbox are powerful layout tools, but they serve different purposes. Flexbox is ideal for one-dimensional layouts - arranging items in a row or column. It's perfect for navigation bars, centering content, and distributing space between items. CSS Grid, on the other hand, excels at two-dimensional layouts where you need to control both rows and columns simultaneously. Use Grid for page layouts and complex card arrangements, and Flexbox for component-level alignment and distribution.",
+			"date": "2024-08-11",
+			"topicId": 2,
+			"userId": 7
+		},
+		{
+			"id": 3,
+			"title": "React Hooks: useState vs useEffect",
+			"body": "React Hooks revolutionized how we write functional components. useState allows us to add state to functional components, while useEffect handles side effects like API calls, subscriptions, and DOM manipulation. useState returns an array with the current state value and a setter function. useEffect runs after every render by default, but you can control when it runs using the dependency array. Remember to clean up subscriptions in useEffect to prevent memory leaks!",
+			"date": "2024-08-12",
+			"topicId": 3,
+			"userId": 12
+		},
+		{
+			"id": 4,
+			"title": "Database Normalization Best Practices",
+			"body": "Database normalization is the process of organizing data to reduce redundancy and improve data integrity. The first normal form (1NF) requires that each column contains atomic values. Second normal form (2NF) eliminates partial dependencies, while third normal form (3NF) removes transitive dependencies. While normalization reduces storage space and maintains consistency, sometimes denormalization is necessary for performance reasons in read-heavy applications. Always consider your specific use case when designing your schema.",
+			"date": "2024-08-13",
+			"topicId": 4,
+			"userId": 5
+		},
+		{
+			"id": 5,
+			"title": "RESTful API Design Principles",
+			"body": "REST (Representational State Transfer) is an architectural style for designing web APIs. Key principles include using HTTP methods appropriately (GET for reading, POST for creating, PUT for updating, DELETE for removing), having stateless communication, and using meaningful URL structures. Resource-based URLs like /api/users/123 are preferred over action-based ones like /api/getUser?id=123. Always return appropriate HTTP status codes and consider pagination for large datasets. Consistent error handling and clear documentation are essential for API adoption.",
+			"date": "2024-08-14",
+			"topicId": 5,
+			"userId": 1
+		},
+		{
+			"id": 6,
+			"title": "Git Branching Strategies for Teams",
+			"body": "Effective git branching strategies are crucial for team collaboration. The GitFlow model uses main, develop, feature, release, and hotfix branches. Feature branches allow developers to work on new features without affecting the main codebase. GitHub Flow is simpler, using just main and feature branches with pull requests. For continuous deployment, consider trunk-based development where developers work on short-lived branches that merge frequently to main. Choose a strategy that fits your team size, deployment frequency, and release cycle.",
+			"date": "2024-08-15",
+			"topicId": 6,
+			"userId": 9
+		},
+		{
+			"id": 7,
+			"title": "Node.js Event Loop Explained",
+			"body": "The Node.js event loop is what makes Node.js non-blocking and efficient. It's a single-threaded loop that handles asynchronous operations through phases: timers, pending callbacks, idle/prepare, poll, check, and close callbacks. The poll phase is where most I/O operations are handled. Understanding the event loop helps you write more efficient code and avoid blocking operations. Use setImmediate() for executing code after the current poll phase, and process.nextTick() for highest priority execution before the next event loop iteration.",
+			"date": "2024-08-16",
+			"topicId": 7,
+			"userId": 14
+		},
+		{
+			"id": 8,
+			"title": "JWT vs Sessions: Authentication Comparison",
+			"body": "JSON Web Tokens (JWT) and sessions are two popular authentication methods. JWTs are stateless, self-contained tokens that include user information and are signed to prevent tampering. They're great for distributed systems and mobile apps. Sessions store user data on the server and use a session ID cookie on the client. Sessions are more secure for sensitive applications as the server has full control over session lifecycle. Consider JWTs for stateless APIs and microservices, and sessions for traditional web applications with server-side rendering.",
+			"date": "2024-08-17",
+			"topicId": 8,
+			"userId": 6
+		},
+		{
+			"id": 9,
+			"title": "Unit Testing with Jest: Best Practices",
+			"body": "Jest is a powerful testing framework that makes unit testing JavaScript applications straightforward. Write tests that are isolated, fast, and deterministic. Use descriptive test names that explain what's being tested and the expected outcome. Mock external dependencies to keep tests focused on the unit being tested. Follow the AAA pattern: Arrange (set up test data), Act (execute the function), Assert (verify the result). Use beforeEach and afterEach for setup and cleanup. Aim for high code coverage but focus on testing critical business logic and edge cases.",
+			"date": "2024-08-18",
+			"topicId": 9,
+			"userId": 11
+		},
+		{
+			"id": 10,
+			"title": "Docker Containers for Development",
+			"body": "Docker revolutionizes how we develop and deploy applications by providing consistent environments across different machines. Containers package your application with all its dependencies, ensuring 'it works on my machine' becomes a thing of the past. Start with a Dockerfile that defines your application environment, use multi-stage builds to optimize image size, and leverage docker-compose for multi-service applications. Docker containers are lightweight compared to virtual machines and start almost instantly, making them perfect for microservices architectures.",
+			"date": "2024-08-19",
+			"topicId": 10,
+			"userId": 2
+		},
+		{
+			"id": 11,
+			"title": "Big O Notation for Algorithm Analysis",
+			"body": "Big O notation describes the time and space complexity of algorithms in terms of input size. O(1) represents constant time, O(log n) logarithmic time, O(n) linear time, and O(n²) quadratic time. Understanding Big O helps you choose efficient algorithms and identify performance bottlenecks. For example, searching an unsorted array is O(n), but using a hash table reduces lookup to O(1) average case. When analyzing algorithms, focus on the worst-case scenario and ignore constants and lower-order terms.",
+			"date": "2024-08-20",
+			"topicId": 12,
+			"userId": 8
+		},
+		{
+			"id": 12,
+			"title": "AWS Lambda: Serverless Computing Basics",
+			"body": "AWS Lambda lets you run code without managing servers, charging only for actual execution time. It's perfect for event-driven applications, API backends, and data processing tasks. Lambda functions can be triggered by various AWS services like S3, DynamoDB, or API Gateway. Keep functions small and focused on a single task, use environment variables for configuration, and consider cold start times when designing your architecture. Lambda automatically scales based on demand and handles fault tolerance, making it ideal for unpredictable workloads.",
+			"date": "2024-08-21",
+			"topicId": 13,
+			"userId": 15
+		},
+		{
+			"id": 13,
+			"title": "React Native vs Flutter: Mobile Development",
+			"body": "React Native and Flutter are leading cross-platform mobile development frameworks. React Native uses JavaScript and provides native performance by rendering to native components. It's great if you have web developers familiar with React. Flutter uses Dart and renders to its own high-performance rendering engine, providing consistent UI across platforms. Flutter generally offers better performance and more consistent behavior, while React Native has a larger ecosystem and easier web developer adoption. Choose based on your team's expertise and performance requirements.",
+			"date": "2024-08-22",
+			"topicId": 14,
+			"userId": 4
+		},
+		{
+			"id": 14,
+			"title": "Introduction to Machine Learning with Python",
+			"body": "Machine learning enables computers to learn patterns from data without explicit programming. Supervised learning uses labeled data to make predictions, while unsupervised learning finds hidden patterns in unlabeled data. Python's scikit-learn library provides excellent tools for beginners. Start with simple algorithms like linear regression for numerical predictions and decision trees for classification. Always split your data into training and testing sets to evaluate model performance. Feature engineering and data cleaning often matter more than choosing the perfect algorithm.",
+			"date": "2024-08-23",
+			"topicId": 15,
+			"userId": 10
+		},
+		{
+			"id": 15,
+			"title": "UX Design Principles for Developers",
+			"body": "Good UX design makes applications intuitive and enjoyable to use. Follow the principle of least surprise - users should be able to predict how interface elements behave. Maintain consistency in design patterns, colors, and terminology throughout your application. Provide clear feedback for user actions, whether success or error states. Design for accessibility by using proper contrast ratios, keyboard navigation, and screen reader support. Mobile-first design ensures your application works well on all device sizes. Remember, you are not your user - conduct user testing to validate design decisions.",
+			"date": "2024-08-24",
+			"topicId": 16,
+			"userId": 13
+		},
+		{
+			"id": 16,
+			"title": "Agile Scrum Framework in Practice",
+			"body": "Scrum is an agile framework that emphasizes iterative development, collaboration, and continuous improvement. Work is organized into sprints (usually 2-4 weeks), with specific ceremonies including sprint planning, daily standups, sprint review, and retrospective. The product owner defines requirements through user stories, the scrum master facilitates the process, and the development team delivers working software. The backlog is prioritized based on business value, and teams reflect on their process to continuously improve. Scrum works best with cross-functional teams and strong stakeholder engagement.",
+			"date": "2024-08-25",
+			"topicId": 17,
+			"userId": 7
+		},
+		{
+			"id": 17,
+			"title": "Python List Comprehensions vs Loops",
+			"body": "Python list comprehensions provide a concise way to create lists and are often more readable than traditional loops. The syntax [expression for item in iterable if condition] creates a new list by applying an expression to each item. List comprehensions are generally faster than equivalent for loops because they're optimized at the C level. However, don't sacrifice readability for brevity - complex logic might be clearer in a traditional loop. Dictionary and set comprehensions work similarly. For very large datasets, consider generator expressions to save memory.",
+			"date": "2024-08-26",
+			"topicId": 18,
+			"userId": 3
+		},
+		{
+			"id": 18,
+			"title": "SQL Joins Explained with Examples",
+			"body": "SQL joins combine data from multiple tables based on related columns. INNER JOIN returns only matching records from both tables. LEFT JOIN returns all records from the left table plus matching records from the right table. RIGHT JOIN does the opposite. FULL OUTER JOIN returns all records from both tables. Use table aliases to make queries more readable, and be careful with many-to-many relationships that can create Cartesian products. Always specify join conditions in the ON clause rather than WHERE clause for better readability and performance.",
+			"date": "2024-08-27",
+			"topicId": 19,
+			"userId": 12
+		},
+		{
+			"id": 19,
+			"title": "Web Performance Optimization Techniques",
+			"body": "Web performance directly impacts user experience and SEO rankings. Start by optimizing images - use appropriate formats (WebP for modern browsers), compress images, and implement lazy loading. Minimize HTTP requests by combining CSS/JS files and using CSS sprites. Enable gzip compression and browser caching. Use a Content Delivery Network (CDN) to serve static assets from locations closer to users. Minimize render-blocking resources by loading non-critical CSS asynchronously. Monitor performance with tools like Lighthouse and WebPageTest to identify bottlenecks.",
+			"date": "2024-08-28",
+			"topicId": 20,
+			"userId": 1
+		},
+		{
+			"id": 20,
+			"title": "Advanced React Component Patterns",
+			"body": "Advanced React patterns help create more maintainable and reusable components. The render props pattern passes a function as a prop to share code between components. Higher-order components (HOCs) wrap components to add functionality. The compound component pattern allows components to work together, like how select and option elements interact. Custom hooks extract stateful logic to be reused across components. The provider pattern uses React Context to share data deeply through component trees. Choose patterns based on your specific use case and team preferences.",
+			"date": "2024-08-29",
+			"topicId": 3,
+			"userId": 9
+		}
+	]
+}
