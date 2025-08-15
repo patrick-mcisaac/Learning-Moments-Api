@@ -1,5 +1,5 @@
 {
-	"Users": [
+	"users": [
 		{
 			"id": 1,
 			"name": "Alice Johnson",
@@ -91,7 +91,7 @@
 			"cohort": "C82"
 		}
 	],
-	"Topics": [
+	"topics": [
 		{
 			"id": 1,
 			"name": "JavaScript Fundamentals"
@@ -173,7 +173,7 @@
 			"name": "Web Performance Optimization"
 		}
 	],
-	"Posts": [
+	"posts": [
 		{
 			"id": 1,
 			"title": "Understanding JavaScript Closures",
